@@ -1,0 +1,6 @@
+echo "Post receive hook"
+
+curl -X POST http://localhost:8080/actuator/refresh
+
+echo "Refresh done"
+
